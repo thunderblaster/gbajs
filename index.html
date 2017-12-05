@@ -285,7 +285,19 @@ document.addEventListener('webkitfullscreenchange', function() {
 </script>
 </head>
 <body>
+	<div class="gba-button" id="l-button">L</div>
+	<div id="d-pad">
+		<div class="gba-button" id="up-button">↑</div>
+		<div class="gba-button" id="left-button">←</div>
+		<div class="gba-button" id="right-button">→</div>
+		<div class="gba-button" id="down-button">↓</div>
+	</div>
 <canvas id="screen" width="480" height="320"></canvas>
+	<div class="gba-button" id="r-button">R</div>
+	<div id="a-b-buttons">
+		<div class="gba-button" id="b-button">B</div>
+		<div class="gba-button" id="a-button">A</div>
+	</div>
 <section id="controls">
 	<div id="preload">
 		<button class="bigbutton" id="select" onclick="document.getElementById('loader').click()">SELECT</button>
