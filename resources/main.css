@@ -197,6 +197,7 @@ ul#links li:not(:first-child)::before {
 	line-height: 70px;
 	cursor: pointer;
 	border-radius: 100px;
+	border: 2px solid #cccccc;
 }
 
 #l-button {
