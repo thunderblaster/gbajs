@@ -246,3 +246,13 @@ ul#links li:not(:first-child)::before {
 #b-button {
 	margin-right: 35px;
 }
+
+#start-select-buttons {
+	position: absolute;
+	top: 540px;
+	left: 240px;
+}
+
+#select-button {
+	margin-top: 20px;
+}
