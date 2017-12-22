@@ -189,3 +189,71 @@ ul#links li:not(:first-child)::before {
 	content: "•";
 	margin: 0 0.5em;
 }
+
+.gba-button {
+	width: 70px;
+	height: 70px;
+	background: #555555;
+	line-height: 70px;
+	cursor: pointer;
+	border-radius: 100px;
+	border: 2px solid #cccccc;
+}
+
+#l-button {
+	position: absolute;
+	top: 70px;
+	left: 100px;
+}
+
+#d-pad {
+	position: absolute;
+	top: 320px;
+	left: 40px;
+	clear: both;
+}
+
+#up-button, #down-button {
+	position: relative;
+	left: 70px;
+}
+
+#left-button, #right-button {
+	display: inline-block;
+}
+
+#right-button {
+	position: relative;
+	left: 70px;
+}
+
+#r-button {
+	position: absolute;
+	top: 70px;
+	right: 100px;
+}
+
+#a-b-buttons {
+	position: absolute;
+	top: 350px;
+	right: 70px;
+	clear: both;
+}
+
+#a-button, #b-button {
+	display: inline-block;
+}
+
+#b-button {
+	margin-right: 35px;
+}
+
+#start-select-buttons {
+	position: absolute;
+	top: 540px;
+	left: 240px;
+}
+
+#select-button {
+	margin-top: 20px;
+}
